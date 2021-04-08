@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Allan&display=swap');
+
+:root {
+    font-family: 'Allan';
+    --main-color: rgba(44, 143, 143,);
+    --accent-color: brown;
+   /* border: 2px solid black;*/
+}
+
+.logo {
+    color: var(--main-color);
+    font-size: 48px;
+}
+
+img {
+    max-width: 300px;
+}
+
+#home {
+    margin-top: 100px;
+}
+
+article.product p {
+    font-family: 'Allan', sans-serif;
+}
+
+p:hover {
+    text-decoration: underline;
+}
+
+p::first-letter {
+    font-size: 24px;
+    color: var(--accent-color);
+}
+
+.menu a {
+    display: block;
+}
